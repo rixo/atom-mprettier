@@ -27,13 +27,20 @@
       "type": "boolean",
       "default": false
     },
+    "nodePath": {
+      "order": 3,
+      "type": "string",
+      "default": "node",
+      "title": "Node executable",
+      "description": "Path to the Node executable used to start the language server."
+    },
     "formatByStandardForJavascript": {
-      "order": 2,
+      "order": 4,
       "type": "boolean",
       "default": false
     },
     "formatOnSave": {
-      "order": 3,
+      "order": 5,
       "type": "object",
       "collapsed": false,
       "properties": {
@@ -75,7 +82,7 @@
       }
     },
     "prettierToUseInOrder": {
-      "order": 4,
+      "order": 6,
       "type": "object",
       "collapsed": false,
       "properties": {
@@ -118,7 +125,7 @@
       }
     },
     "scopesForParser": {
-      "order": 5,
+      "order": 7,
       "type": "object",
       "collapsed": false,
       "properties": {
