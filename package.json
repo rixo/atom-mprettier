@@ -13,6 +13,11 @@
     "atom": "^1.15.0"
   },
   "configSchema": {
+    "useDiffReplace": {
+      "order": 0,
+      "type": "boolean",
+      "default": true
+    },
     "notificationMethodOnPrettierError": {
       "order": 0,
       "type": "string",
@@ -225,6 +230,7 @@
     }
   },
   "dependencies": {
+    "diff": "^7.0.0",
     "fs-plus": "^3.0.1",
     "read-pkg-up": "^3.0.0",
     "standard": "^10.0.3"
